@@ -1,0 +1,28 @@
+{
+  "name": "rophim-be",
+  "version": "1.0.0",
+  "description": "",
+  "keywords": [
+    "rophim-be"
+  ],
+  "homepage": "https://github.com/levix2004/RoPhim_BE#readme",
+  "bugs": {
+    "url": "https://github.com/levix2004/RoPhim_BE/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/levix2004/RoPhim_BE.git"
+  },
+  "license": "ISC",
+  "author": "levix",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon --inspect index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "express": "^5.1.0",
+    "nodemon": "^3.1.10"
+  }
+}
